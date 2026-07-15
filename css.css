@@ -125,3 +125,43 @@ nav a:hover {
     object-fit:cover;
 
 }
+
+
+.timeline {
+    position: relative;
+    max-width: 800px;
+    margin: 50px auto;
+}
+
+.timeline::before {
+    content: '';
+    position: absolute;
+    left: 20px;
+    top: 0;
+    height: 100%;
+    width: 2px;
+    background: #222;
+}
+
+.timeline-item {
+    position: relative;
+    margin-bottom: 40px;
+    padding-left: 60px;
+}
+
+.timeline-dot {
+    position: absolute;
+    left: 11px;
+    top: 10px;
+    height: 18px;
+    width: 18px;
+    border-radius: 50%;
+    background: white;
+    border: 3px solid #222;
+}
+
+.timeline-content {
+    padding: 20px;
+    background: #f7f7f7;
+    border-radius: 12px;
+}
