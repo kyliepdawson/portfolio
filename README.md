@@ -1,2 +1,3 @@
-# portfolio
-Building my own portfolio
+# Portfolio
+Building my own portfolio page
+
