@@ -325,8 +325,8 @@ nav a.active::after {
     font-size: 2rem;
     font-weight: 600;
     color: var(--burgundy);
-    margin-top: 80px;
-    margin-bottom: 25px;
+    margin-top: 40px;
+    margin-bottom: 10px;
 }
 
 
