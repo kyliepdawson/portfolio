@@ -45,14 +45,6 @@ body {
     text-transform: uppercase;
 }
 
-.page-title::before,
-.page-title::after {
-    content: "";
-    flex: 1;
-    height: 1.3px;
-    background: var(--burgundy);
-    opacity: .6;
-}
 
 
 /* HEADER */
@@ -241,4 +233,41 @@ nav a:hover::after {
 .timeline-content p {
     color: var(--charcoal);
     line-height: 1.7;
+}
+
+
+/*contact*/
+.contact-wrap {
+    max-width: 500px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.contact-row {
+    background: var(--white);
+    border: 1px solid var(--light-border);
+    border-radius: 8px;
+    padding: 20px 28px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.contact-label {
+    font-family: 'Playfair Display', serif;
+    font-weight: 600;
+    color: var(--navy);
+    font-size: 1rem;
+}
+
+.contact-row a {
+    color: var(--burgundy);
+    text-decoration: none;
+    font-size: 0.95rem;
+}
+
+.contact-row a:hover {
+    text-decoration: underline;
 }
