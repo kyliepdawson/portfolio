@@ -154,6 +154,10 @@ nav a:hover::after {
     width: 100%;
 }
 
+nav a.active::after {
+    width: 100%;
+}
+
 
 
 /*Experience*/
