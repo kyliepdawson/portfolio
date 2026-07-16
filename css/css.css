@@ -9,6 +9,7 @@
     --gray: #666666;
     --taupe: #B7A99A;
     --light-border: #E7DED5;
+     --navy: #102A43;
 }
 
 
@@ -74,7 +75,7 @@ HEADER
     justify-content: center;
 
     gap: 40px;
-    color: var(--burgundy);
+    color: var(--navy);
 
 }
 
@@ -193,6 +194,7 @@ nav a::after {
 nav a:hover::after {
 
     width: 100%;
+    color: var(--navy);
 
 }
 
