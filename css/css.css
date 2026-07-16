@@ -42,7 +42,7 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
-    background-color: var(--cream);
+    background-color: #E1DCD6;
     border-top: 1px solid var(--light-border);
     border-bottom: 1px solid var(--light-border);
 }
