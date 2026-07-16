@@ -184,7 +184,6 @@ main {
 }
 
 /*About Me */
-/* About Page */
 
 .about {
     max-width: 850px;
@@ -196,7 +195,6 @@ main {
 /* Intro */
 
 .about > p:first-child {
-    font-family: 'Playfair Display', serif;
     font-size: 3.2rem;
     font-weight: 600;
     color: #72243e;
@@ -208,7 +206,6 @@ main {
 /* Section Titles */
 
 .about h3 {
-    font-family: 'Playfair Display', serif;
     font-size: 2rem;
     font-weight: 600;
     color: #72243e;
@@ -233,7 +230,6 @@ main {
 /* Paragraph Styling */
 
 .about p {
-    font-family: 'Inter', sans-serif;
     font-size: 1.05rem;
     line-height: 1.85;
     color: #444;
