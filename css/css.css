@@ -14,27 +14,45 @@ body {
 
 /* Top Section */
 
-.top-header {
 
+.top-header {
+ 
     height: 130px;
     display: flex;
     align-items: center;
     justify-content: center;
     padding: 0 8%;
     background-color: #72243e;
-
+ 
 }
-
-.logo a {
-    color: #FDF8F5;
-}
-
+ 
 .logo {
-
+ 
     font-size: 45px;
     font-weight: 900;
     letter-spacing: 3px;
-    color: #FDF8F5 ;
+    display: flex;
+    align-items: center;
+    width: 100%;
+    max-width: 700px;
+ 
+}
+ 
+.logo::before,
+.logo::after {
+    content: '';
+    flex: 1;
+    height: 1px;
+    background-color: #FDF8F5;
+    opacity: 0.5;
+}
+ 
+.logo::before {
+    margin-right: 24px;
+}
+ 
+.logo::after {
+    margin-left: 24px;
 }
 
 /* Navbar */
