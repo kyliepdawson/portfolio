@@ -46,7 +46,7 @@ body {
     flex: 1;
     height: 1px;
     background-color: #FDF8F5;
-    opacity: 0.5;
+    opacity: 0.75;
 }
  
 .logo::before {
