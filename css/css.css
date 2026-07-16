@@ -117,23 +117,40 @@ nav {
 
 
 nav a {
-
-    text-decoration:none;
-
+    text-decoration: none;
     color: var(--white);
+    font-size: .85rem;
+    letter-spacing: 1.5px;
+    font-weight: 500;
+    position: relative;
+    padding-bottom: 8px;
+}
 
-    font-size:.85rem;
-    letter-spacing:1.5px;
-    font-weight:500;
 
-    transition:.3s ease;
+/* underline effect */
+
+nav a::after {
+
+    content: "";
+
+    position: absolute;
+
+    left: 0;
+    bottom: 0;
+
+    width: 0%;
+    height: 1px;
+
+    background-color: var(--burgundy);
+
+    transition: width .3s ease;
 
 }
 
 
-nav a:hover {
+nav a:hover::after {
 
-   border: 1px dashed var(--cream);
+    width: 100%;
 
 }
 
