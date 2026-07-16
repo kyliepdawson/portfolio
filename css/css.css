@@ -317,3 +317,24 @@ nav a.active::after {
 .copy-btn.copied .icon-check {
     display: block;
 }
+
+
+/*about*/
+
+.about h3 {
+    font-size: 2rem;
+    font-weight: 600;
+    color: var(--burgundy);
+    margin-top: 80px;
+    margin-bottom: 25px;
+}
+
+
+.about h3::after {
+    content: "";
+    display: block;
+    width: 60px;
+    height: 3px;
+    background: var(--taupe);
+    margin-top: 15px;
+}
