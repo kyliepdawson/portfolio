@@ -40,14 +40,12 @@ body {
 HEADER
 ------------------------------ */
 
-
 .top-header {
 
-    height: 160px;
+    height:220px;
     display:flex;
     justify-content:center;
     align-items:center;
-    flex-direction: vertical;
 
     background-color: var(--cream);
 
@@ -56,42 +54,84 @@ HEADER
 
 .logo {
 
-    font-family:'Playfair Display', serif;
-    font-size:70px;
-    letter-spacing:4px;
-    font-weight:600;
-    color:var(--burgundy);
-
-    display:flex;
-    align-items:center;
-    justify-content: center;
     width:90%;
     max-width:1200px;
+
+    text-align:center;
 
 }
 
 
-.logo::before,
-.logo::after {
+
+/* NAME + SIDE LINES */
+
+.logo-name {
+
+    display:flex;
+
+    align-items:center;
+
+    justify-content:center;
+
+    gap:40px;
+
+}
+
+
+
+.logo-name::before,
+.logo-name::after {
 
     content:"";
+
     flex:1;
+
     height:1px;
-    background:var(--taupe);
+
+    background:var(--burgundy);
+
     opacity:.6;
 
 }
 
 
-.logo::before {
-    margin-right:50px;
+
+.logo-name a {
+
+    font-family:'Playfair Display', serif;
+
+    font-size:65px;
+
+    line-height:.9;
+
+    letter-spacing:5px;
+
+    font-weight:600;
+
+    color:var(--burgundy);
+
+    text-decoration:none;
+
 }
 
 
-.logo::after {
-    margin-left:50px;
-}
 
+/* TAGLINE */
+
+.eyebrow {
+
+    margin-top:25px;
+
+    font-family:'Inter', sans-serif;
+
+    font-size:.85rem;
+
+    letter-spacing:4px;
+
+    color:var(--burgundy);
+    opacity: .8;
+
+}
 
 /* ------------------------------
 NAVIGATION
@@ -587,20 +627,7 @@ nav {
 
 /* small label above title */
 
-.eyebrow {
 
-    font-size:.85rem;
-
-    letter-spacing:3px;
-
-    color:var(--burgundy);
-    opacity: .8;
-
-    font-weight:600;
-
-    margin-bottom:30px;
-
-}
 
 
 
