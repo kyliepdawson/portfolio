@@ -116,8 +116,8 @@ nav {
 nav a {
     text-decoration: none;
     color: var(--white);
-    font-size: .9rem;
-    letter-spacing: 2px;
+    font-size: 1rem;
+    letter-spacing: 1.8px;
     font-weight: 500;
     position: relative;
     padding-bottom: 8px;
