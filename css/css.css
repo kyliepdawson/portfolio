@@ -43,6 +43,8 @@ body {
     justify-content: center;
     align-items: center;
     background-color: var(--cream);
+    border-top: 1px solid var(--light-border);
+    border-bottom: 1px solid var(--light-border);
 }
 
 
@@ -114,8 +116,8 @@ nav {
 nav a {
     text-decoration: none;
     color: var(--white);
-    font-size: .85rem;
-    letter-spacing: 1.5px;
+    font-size: .9rem;
+    letter-spacing: 2px;
     font-weight: 500;
     position: relative;
     padding-bottom: 8px;
