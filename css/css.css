@@ -592,7 +592,8 @@ nav {
 
     letter-spacing:3px;
 
-    color:var(--taupe);
+    color:var(--burgundy);
+    opacity: .7;
 
     font-weight:600;
 
