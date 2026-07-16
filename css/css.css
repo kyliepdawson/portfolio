@@ -161,13 +161,8 @@ main {
     background: #fff;
     border: 1px solid #fbeaf0;
     border-radius: 12px;
-    transition: box-shadow 0.2s ease, transform 0.2s ease;
 }
 
-.timeline-content:hover {
-    box-shadow: 0 4px 14px rgba(114, 36, 62, 0.15);
-    transform: translateY(-2px);
-}
 
 .timeline-header h3 {
     font-size: 1.2rem;
