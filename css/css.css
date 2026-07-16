@@ -255,6 +255,7 @@ nav a.active::after {
     border-radius: 8px;
     padding: 20px 28px;
     display: flex;
+    flex-direction: vertical;
     align-items: center;
     justify-content: space-between;
 }
