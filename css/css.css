@@ -182,3 +182,70 @@ main {
     color: #444;
     line-height: 1.55;
 }
+
+/*About Me */
+/* About Page */
+
+.about {
+    max-width: 850px;
+    margin: 0 auto;
+    padding: 20px 20px 80px;
+}
+
+
+/* Intro */
+
+.about > p:first-child {
+    font-family: 'Playfair Display', serif;
+    font-size: 3.2rem;
+    font-weight: 600;
+    color: #72243e;
+    text-align: center;
+    margin-bottom: 70px;
+}
+
+
+/* Section Titles */
+
+.about h3 {
+    font-family: 'Playfair Display', serif;
+    font-size: 2rem;
+    font-weight: 600;
+    color: #72243e;
+    margin-top: 55px;
+    margin-bottom: 20px;
+    position: relative;
+}
+
+
+/* Small underline detail */
+
+.about h3::after {
+    content: "";
+    display: block;
+    width: 55px;
+    height: 3px;
+    background-color: #C09BA5;
+    margin-top: 10px;
+}
+
+
+/* Paragraph Styling */
+
+.about p {
+    font-family: 'Inter', sans-serif;
+    font-size: 1.05rem;
+    line-height: 1.85;
+    color: #444;
+    margin-bottom: 25px;
+}
+
+
+/* Final paragraph */
+
+.about p:last-child {
+    margin-top: 50px;
+    padding-top: 30px;
+    border-top: 1px solid #C09BA5;
+    font-style: italic;
+}
