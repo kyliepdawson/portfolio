@@ -1,0 +1,137 @@
+:root {
+    --berry: #993556;
+    --berry-dark: #72243E;
+    --berry-light: #FBEAF0;
+    --cream: #FDF8F5;
+    --ink: #2C2C2A;
+}
+
+body {
+    background: var(--cream);
+    color: var(--ink);
+}
+
+nav a.active {
+    color: var(--berry);
+    font-weight: 500;
+}
+
+main {
+    max-width: 900px;
+    margin: 0 auto;
+    padding: 0 20px 60px;
+}
+
+.intro {
+    max-width: 520px;
+    margin: 50px auto 10px;
+}
+
+.intro h1 {
+    font-family: 'Playfair Display', serif;
+    font-size: 2.1rem;
+    font-weight: 600;
+    margin: 0 0 12px;
+    line-height: 1.25;
+}
+
+.intro h1 .accent {
+    color: var(--berry);
+}
+
+.intro p {
+    font-family: 'Inter', sans-serif;
+    font-size: 1rem;
+    color: #6b5f63;
+    line-height: 1.6;
+    margin: 0;
+}
+
+.timeline {
+    position: relative;
+    max-width: 800px;
+    margin: 50px auto;
+}
+
+.timeline::before {
+    content: '';
+    position: absolute;
+    left: 29px;
+    top: 0;
+    height: 100%;
+    width: 2px;
+    background: #ecdde2;
+}
+
+.timeline-item {
+    position: relative;
+    margin-bottom: 40px;
+    padding-left: 80px;
+    opacity: 0;
+    animation: fadeIn 0.6s ease forwards;
+}
+
+.timeline-item:nth-child(2) { animation-delay: 0.15s; }
+.timeline-item:nth-child(3) { animation-delay: 0.3s; }
+
+@keyframes fadeIn {
+    from { opacity: 0; transform: translateY(10px); }
+    to { opacity: 1; transform: translateY(0); }
+}
+
+.timeline-dot {
+    position: absolute;
+    left: 6px;
+    top: 8px;
+    height: 48px;
+    width: 48px;
+    border-radius: 50%;
+    background: var(--berry-light);
+    border: 2px solid var(--berry);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    overflow: hidden;
+}
+
+.timeline-dot img {
+    width: 70%;
+    height: 70%;
+    object-fit: contain;
+}
+
+.timeline-content {
+    padding: 20px 24px;
+    background: #fff;
+    border: 1px solid #f1e2e7;
+    border-radius: 12px;
+    transition: box-shadow 0.2s ease, transform 0.2s ease;
+}
+
+.timeline-content:hover {
+    box-shadow: 0 4px 14px rgba(153, 53, 86, 0.1);
+    transform: translateY(-2px);
+}
+
+.timeline-content h3 {
+    font-family: 'Playfair Display', serif;
+    font-weight: 600;
+    font-size: 1.2rem;
+    margin: 0 0 4px 0;
+    color: var(--ink);
+}
+
+.timeline-content h4 {
+    font-family: 'Inter', sans-serif;
+    margin: 8px 0 4px 0;
+    font-size: 0.92rem;
+    color: var(--berry-dark);
+    font-weight: 500;
+}
+
+.timeline-content p {
+    font-family: 'Inter', sans-serif;
+    margin: 4px 0;
+    color: #55494d;
+    line-height: 1.55;
+}
