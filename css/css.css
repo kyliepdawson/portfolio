@@ -12,7 +12,7 @@ body {
 }
 
 
-/* Top section */
+/* Top Section */
 
 .top-header {
 
@@ -34,7 +34,7 @@ body {
     font-size: 45px;
     font-weight: 900;
     letter-spacing: 3px;
-
+    color: #FDF8F5 ;
 }
 
 /* Navbar */
@@ -69,7 +69,7 @@ nav a:hover {
 
 }
 
-/* Main / page title */
+/* Main Page */
 
 main {
     max-width: 900px;
@@ -84,7 +84,7 @@ main {
     color: #72243e;
 }
 
-/* Timeline */
+/* Experience Page */
 
 .timeline {
     position: relative;
