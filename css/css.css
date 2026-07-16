@@ -14,7 +14,7 @@
 }
 
 
-/* RESET */
+/* All Pages */
 
 * {
     margin: 0;
@@ -33,6 +33,15 @@ body {
     color: var(--charcoal);
     font-family: 'Inter', sans-serif;
     line-height: 1.6;
+}
+
+.page-header {
+    font-family: 'Playfair Display', serif;
+    font-weight: 600;
+    font-size: 2.4rem;
+    text-align: center;
+    color: var(--navy);
+    margin: 70px 0 50px;
 }
 
 
@@ -204,14 +213,9 @@ nav a:hover::after {
 }
 
 
-.timeline-content:hover {
-    transform: translateY(-5px);
-}
-
-
 .timeline-header h3 {
     font-size: 1.6rem;
-    color: var(--charcoal);
+    color: var(--navy);
 }
 
 
