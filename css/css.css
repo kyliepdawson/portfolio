@@ -321,13 +321,23 @@ nav a.active::after {
 
 /*about*/
 
-.about h3 {
-    font-size: 1.8rem;
-    font-weight: 600;
-    color: var(--burgundy);
-    margin-top: 40px;
+main {
+    max-width: 950px;
+    margin: 0 auto;
+    padding: 0 20px 80px;
 }
 
+.about h3 {
+    font-size: 1.4rem;
+    font-weight: 600;
+    color: var(--burgundy);
+    margin-top: 45px;
+    margin-bottom: 8px;
+}
+
+.about h3:first-of-type {
+    margin-top: 0;
+}
 
 .about h3::after {
     content: "";
@@ -336,4 +346,9 @@ nav a.active::after {
     height: 3px;
     background: var(--taupe);
     margin-top: 10px;
+}
+
+.about p {
+    margin-bottom: 24px;
+    max-width: 720px;
 }
