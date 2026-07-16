@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@500;600&family=Inter:wght@400;500&display=swap');
+
 :root {
     --berry: #993556;
     --berry-dark: #72243E;
@@ -6,15 +8,54 @@
     --ink: #2C2C2A;
 }
 
-body {
-    background: var(--cream);
-    color: var(--ink);
+* {
+    box-sizing: border-box;
 }
 
-nav a.active {
-    color: var(--berry);
-    font-weight: 500;
+body {
+    margin: 0;
+    background: var(--cream);
+    color: var(--ink);
+    font-family: 'Inter', sans-serif;
 }
+
+/* header */
+
+.top-header {
+    text-align: center;
+    padding: 30px 20px 10px;
+}
+
+.logo a {
+    font-family: 'Playfair Display', serif;
+    font-size: 1.6rem;
+    font-weight: 600;
+    letter-spacing: 1px;
+}
+
+nav {
+    display: flex;
+    justify-content: center;
+    gap: 28px;
+    padding: 14px 0 24px;
+    border-bottom: 1px solid #ecdde2;
+    margin-bottom: 10px;
+}
+
+nav a {
+    text-decoration: none;
+    color: var(--ink);
+    font-size: 0.85rem;
+    letter-spacing: 0.5px;
+    font-weight: 500;
+    transition: color 0.2s ease;
+}
+
+nav a:hover {
+    color: var(--berry);
+}
+
+/* main */
 
 main {
     max-width: 900px;
@@ -22,30 +63,16 @@ main {
     padding: 0 20px 60px;
 }
 
-.intro {
-    max-width: 520px;
-    margin: 50px auto 10px;
-}
-
-.intro h1 {
+.page-title {
     font-family: 'Playfair Display', serif;
-    font-size: 2.1rem;
     font-weight: 600;
-    margin: 0 0 12px;
-    line-height: 1.25;
+    font-size: 2rem;
+    text-align: center;
+    margin: 30px 0 50px;
+    color: var(--ink);
 }
 
-.intro h1 .accent {
-    color: var(--berry);
-}
-
-.intro p {
-    font-family: 'Inter', sans-serif;
-    font-size: 1rem;
-    color: #6b5f63;
-    line-height: 1.6;
-    margin: 0;
-}
+/* timeline */
 
 .timeline {
     position: relative;
@@ -113,7 +140,7 @@ main {
     transform: translateY(-2px);
 }
 
-.timeline-content h3 {
+.timeline-header h3 {
     font-family: 'Playfair Display', serif;
     font-weight: 600;
     font-size: 1.2rem;
@@ -122,7 +149,6 @@ main {
 }
 
 .timeline-content h4 {
-    font-family: 'Inter', sans-serif;
     margin: 8px 0 4px 0;
     font-size: 0.92rem;
     color: var(--berry-dark);
@@ -130,7 +156,6 @@ main {
 }
 
 .timeline-content p {
-    font-family: 'Inter', sans-serif;
     margin: 4px 0;
     color: #55494d;
     line-height: 1.55;
