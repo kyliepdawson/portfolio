@@ -213,9 +213,8 @@ main {
 
 .page-title {
     text-align: center;
-    font-size: 2rem;
+    font-size: 2.5rem;
     color: var(--navy);
-    margin: 90px 0 60px;
 }
 
 
@@ -226,13 +225,8 @@ ABOUT PAGE
 
 
 .about {
-
     max-width: 900px;
-
     margin: auto;
-
-    padding: 90px 30px;
-
 }
 
 
@@ -240,19 +234,11 @@ ABOUT PAGE
 
 
 .about>p:first-child {
-
-
-
-    font-size: 4rem;
-
+    font-size: 2.5rem;
     line-height: 1.2;
-
     text-align: center;
-
-    color: var(--burgundy);
-
+    color: var(--navy);
     margin-bottom: 100px;
-
 }
 
 
@@ -260,19 +246,11 @@ ABOUT PAGE
 
 
 .about h3 {
-
-
-
     font-size: 2.3rem;
-
     font-weight: 600;
-
     color: var(--burgundy);
-
     margin-top: 80px;
-
     margin-bottom: 25px;
-
 }
 
 
