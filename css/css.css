@@ -9,7 +9,7 @@
     --gray: #666666;
     --taupe: #B7A99A;
     --light-border: #E7DED5;
-     --navy: #102A43;
+    --navy: #102A43;
 }
 
 
@@ -28,134 +28,86 @@ html {
 
 
 body {
-
     background-color: var(--cream);
     color: var(--charcoal);
     font-family: 'Inter', sans-serif;
     line-height: 1.6;
-
 }
 
 
-/* ------------------------------
-HEADER
------------------------------- */
+/* HEADER */
 
 .top-header {
-
     height: 220px;
     display: flex;
     justify-content: center;
     align-items: center;
-
     background-color: var(--cream);
-
 }
 
 
 .logo {
-
     width: 90%;
     max-width: 1200px;
-
     text-align: center;
-
 }
-
 
 
 /* NAME + SIDE LINES */
 
 .logo-name {
-
     display: flex;
-
     align-items: center;
-
     justify-content: center;
-
     gap: 40px;
     color: var(--navy);
-
 }
-
 
 
 .logo-name::before,
 .logo-name::after {
-
     content: "";
-
     flex: 1;
-
     height: 1px;
-
     background: var(--burgundy);
-
     opacity: .6;
-
 }
-
 
 
 .logo-name a {
-
     font-family: 'Playfair Display', serif;
-
     font-size: 65px;
-
     line-height: .9;
-
     letter-spacing: 5px;
-
     font-weight: 600;
-
     color: var(--burgundy);
-
     text-decoration: none;
-
 }
-
 
 
 /* TAGLINE */
 
 .eyebrow {
-
     margin-top: 25px;
-
     font-family: 'Inter', sans-serif;
-
     font-size: .85rem;
-
     letter-spacing: 4px;
-
     color: var(--burgundy);
     opacity: .8;
-
 }
 
-/* ------------------------------
-NAVIGATION
------------------------------- */
-
+/* NAVIGATION */
 
 nav {
-
+    font-family: 'Playfair Display', serif;
     height: 85px;
-
     display: flex;
     justify-content: center;
     align-items: center;
-
     gap: 45px;
-
     background: var(--burgundy);
-
     border-top: 1px solid var(--light-border);
     border-bottom: 1px solid var(--light-border);
-
-
 }
 
 
@@ -173,28 +125,17 @@ nav a {
 /* underline effect */
 
 nav a::after {
-
     content: "";
-
     position: absolute;
-
     left: 0;
     bottom: 0;
-
     width: 0%;
     height: 1px;
-
     background-color: var(--cream);
-
     transition: width .3s ease;
-
 }
 
 
 nav a:hover::after {
-
     width: 100%;
-
 }
-
-
