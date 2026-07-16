@@ -111,7 +111,7 @@ nav {
 
     border-top:1px solid var(--light-border);
     border-bottom:1px solid var(--light-border);
-    color: var(--cream);
+
 
 }
 
@@ -120,7 +120,7 @@ nav a {
 
     text-decoration:none;
 
-    color:var(--charcoal);
+    color: var(--white);
 
     font-size:.85rem;
     letter-spacing:1.5px;
@@ -133,7 +133,7 @@ nav a {
 
 nav a:hover {
 
-    color:var(--burgundy);
+   border: 1px dashed var(--cream);
 
 }
 
