@@ -322,7 +322,7 @@ nav a.active::after {
 /*about*/
 
 .about h3 {
-    font-size: 2rem;
+    font-size: 1.3rem;
     font-weight: 600;
     color: var(--burgundy);
     margin-top: 40px;
