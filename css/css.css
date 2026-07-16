@@ -8,6 +8,7 @@
     --charcoal: #222222;
     --gray: #666666;
     --taupe: #B7A99A;
+    --light-taupe:#E1DCD6;
     --light-border: #E7DED5;
     --navy: #102A43;
 }
@@ -140,4 +141,90 @@ nav a::after {
 
 nav a:hover::after {
     width: 100%;
+}
+
+
+
+/*Experience*/
+
+.timeline {
+    position: relative;
+    max-width: 950px;
+    margin: 80px auto;
+}
+
+
+.timeline::before {
+    content: "";
+    position: absolute;
+    left: 38px;
+    top: 0;
+    height: 100%;
+    width: 1px;
+    background: var(--taupe);
+}
+
+
+.timeline-item {
+    position: relative;
+    margin-bottom: 60px;
+    padding-left: 110px;
+}
+
+
+.timeline-dot {
+    position: absolute;
+    left: 10px;
+    top: 5px;
+    height: 60px;
+    width: 60px;
+    border-radius: 50%;
+    background: white;
+    border: 2px solid var(--burgundy);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    overflow: hidden;
+}
+
+
+.timeline-dot img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+
+.timeline-content {
+    background: white;
+    padding: 35px;
+    border-radius: 2px;
+    border: 1px solid var(--light-border);
+    box-shadow: 0 15px 35px rgba(0, 0, 0, .05);
+}
+
+
+.timeline-content:hover {
+    transform: translateY(-5px);
+}
+
+
+.timeline-header h3 {
+    font-size: 1.6rem;
+    color: var(--charcoal);
+}
+
+
+.timeline-content h4 {
+    color: var(--burgundy);
+    font-size: .95rem;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    margin: 10px 0;
+}
+
+
+.timeline-content p {
+    color: var(--charcoal);
+    line-height: 1.7;
 }
