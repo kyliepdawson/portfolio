@@ -194,7 +194,6 @@ nav a::after {
 nav a:hover::after {
 
     width: 100%;
-    color: var(--navy);
 
 }
 
@@ -213,16 +212,10 @@ main {
 
 
 .page-title {
-
-
     text-align: center;
-
-    font-size: 3rem;
-
-    color: var(--burgundy);
-
+    font-size: 2rem;
+    color: var(--navy);
     margin: 90px 0 60px;
-
 }
 
 
