@@ -42,8 +42,7 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
-    background-color: var(--taupe);
-    opacity: .5;
+    background-color: var(--cream);
 }
 
 
