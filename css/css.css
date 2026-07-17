@@ -336,6 +336,7 @@ main {
     margin-top: 45px;
     margin-bottom: 8px;
     margin: 0 auto 24px;
+    max-width: 1000px;
 }
 
 .about h3:first-of-type {
