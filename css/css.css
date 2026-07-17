@@ -8,7 +8,7 @@
     --charcoal: #222222;
     --gray: #666666;
     --taupe: #B7A99A;
-    --light-taupe:#E1DCD6;
+    --light-taupe: #E1DCD6;
     --light-border: #E7DED5;
     --navy: #102A43;
 }
@@ -275,6 +275,7 @@ nav a.active::after {
 .contact-row a:hover {
     text-decoration: underline;
 }
+
 .contact-value {
     display: flex;
     align-items: center;
@@ -334,6 +335,8 @@ main {
     color: var(--burgundy);
     margin-top: 45px;
     margin-bottom: 8px;
+    max-width: 920px;
+    margin: 0 auto 24px;
 }
 
 .about h3:first-of-type {
@@ -350,6 +353,6 @@ main {
 }
 
 .about p {
-    max-width: 720px;
+    max-width: 920px;
     margin: 0 auto 24px;
 }
