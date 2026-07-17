@@ -350,6 +350,8 @@ main {
 }
 
 .about p {
+    display: flex;
+    align-items: center;
     margin-bottom: 24px;
     max-width: 950px;
 }
